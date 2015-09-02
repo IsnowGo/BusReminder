@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bg1"
+    android:layout_gravity="center">
+    <Button
+        android:id="@+id/reminder"
+        android:layout_width="125dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:text="公交提醒" 
+        android:textSize="20sp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/button"/>
+    
+    <Button
+        android:id="@+id/music"
+        android:layout_width="125dp"
+        android:layout_height="45dp"
+        android:text="音乐设置" 
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/reminder"
+        android:background="@drawable/button"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="125dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/music"
+        android:text="退出" 
+        android:textSize="20sp"
+        android:gravity="center"
+        android:background="@drawable/button"/>
+
+    
+
+</RelativeLayout>

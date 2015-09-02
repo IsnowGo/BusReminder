@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+
+    <string name="app_name">公交到站提醒助手</string>
+   <string name="i_am_here">我在坐</string>
+	<string name ="lu">路</string>
+	<string name="yaoqu">要去</string>
+	<string name="chooseDestion">选择目的地</string>
+</resources>
